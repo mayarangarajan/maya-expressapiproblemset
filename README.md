@@ -18,6 +18,7 @@ outputs: "product": 24
 
 **Part 3: Evens**
 
+trial 1 
 inputs: 
 {"array": [1,2,3,4]} 
 
@@ -29,6 +30,7 @@ outputs:
     ]
 }
 
+trial 2
 inputs: 
 {"array": [1,4,3,2} 
 
@@ -56,6 +58,7 @@ outputs:
 
 **Part 6: Sort**
 
+trial 1
 inputs: 
 {"array": [1,2,3,4],
 "ascending" true:}
@@ -63,6 +66,7 @@ inputs:
 outputs: 
 {"sorted":[1,2,3,4]}
 
+trial 2
 inputs: 
 {"array": [1,2,3,4],
 "ascending" false:}
@@ -72,6 +76,7 @@ outputs:
 
 **Part 7: Target**
 
+trial 1
 inputs: {
   "array": [1,2,3,4],
   "target": 9
@@ -79,6 +84,7 @@ inputs: {
 outputs: 
 {"targetFound":false}
 
+trial 2
 inputs: {
   "array": [1,2,3,4],
   "target": 5
