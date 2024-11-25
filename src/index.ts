@@ -28,7 +28,7 @@ interface ArrayRequestBody {
   target?: number;      // Used in /target endpoint
 }
 
-// /add endpoint
+// add endpoint
 app.get('/add', (req: Request, res: Response) => {
   const { array }: ArrayRequestBody = req.body;
   if (!Array.isArray(array) || array.some(isNaN)) {
@@ -38,7 +38,7 @@ app.get('/add', (req: Request, res: Response) => {
   res.json({ sum });
 });
 
-// /product endpoint
+// product endpoint
 app.get('/product', (req: Request, res: Response) => {
   const { array }: ArrayRequestBody = req.body;
   if (!Array.isArray(array) || array.some(isNaN)) {
